@@ -1,0 +1,146 @@
+    html,
+    body {
+        height: 100%;
+        margin: 0 0;
+    }
+    
+    body {
+        background: white;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    .nav {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        background: #fff;
+        padding: 0px 40px;
+        height: 70px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2) !important;
+    }
+    
+    .rightb {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: #dd5347 !important;
+        width: 250px;
+        height: 70px;
+    }
+    
+    .rightb h1 {
+        font-size: 13px;
+        margin-top: 26.5px;
+        color: white;
+        font-weight: 400;
+    }
+    
+    .nav a {
+        width: 200px;
+        height: 70px;
+        color: rgba(77, 77, 77, 1) !important;
+        font-weight: 400 !important;
+    }
+    
+    .logo img {
+        height: 70px;
+    }
+    
+    .opt {
+        position: absolute;
+        right: 250px;
+        width: 200px;
+        top: 0px;
+        clear: both;
+    }
+    
+    .opt a {
+        display: block;
+        width: 100px;
+        color: grey;
+        float: left;
+        text-align: center;
+        margin-top: 24px;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    
+    .opt a:hover {
+        color: #dd5347 !important;
+    }
+    /* header class css starts here */
+    
+    .header {
+        margin-top: 0px;
+        background: url("https://www.google.com/gmail/about/images/home-hero_2x.jpg");
+        height: 580px;
+        max-height: 580px!important;
+        max-height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-position-y: -50px;
+        z-index: -1;
+        overflow: hidden;
+    }
+    
+    .side {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    
+    .side a {
+        background: #dd5347 !important;
+    }
+    
+    .inside {
+        width: 500px;
+        height: 400px;
+        margin-top: 120px;
+        margin-left: 120px;
+        font-weight: 300 !important;
+    }
+    
+    .pit {
+        color: white;
+        font-size: 47px;
+    }
+    
+    .spbt {
+        width: 250px;
+        min-height: 60px;
+        text-align: center;
+        background: #dd5347;
+        padding-top: 6px;
+        font-size: 15px !important;
+        color: white;
+        font-weight: 400;
+    }
+    
+    .second {
+        width: 100%;
+        height: 340px;
+        background: white;
+        overflow: hidden;
+    }
+    
+    .sinside {
+        max-width: 500px;
+        height: 160px;
+        background: white;
+        margin: 0px auto;
+        margin-top: 140px;
+        font-weight: 200;
+    }
+    
+    .sinside h4 {
+        font-size: 45px;
+        font-weight: 100;
+    }
+    
+    .inbox {
+        background: url("/home/ashish/Desktop/projects/gmail/images/inboxtabs.gif");
+        height: 100px;
+        width: 100%;
+    }
