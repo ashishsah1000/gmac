@@ -6,7 +6,7 @@
     
     body {
         background: white;
-        font-family: 'Barlow', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
     
     .nav {
@@ -74,14 +74,14 @@
     .header {
         margin-top: 0px;
         background: url("https://www.google.com/gmail/about/images/home-hero_2x.jpg");
-        height: 580px;
-        max-height: 580px!important;
-        max-height: 600px;
+        height: 610px;
+        max-height: 620px!important;
         width: 100%;
         background-size: cover;
         background-position-y: -50px;
         z-index: -1;
         overflow: hidden;
+        background-repeat: no-repeat;
     }
     
     .side {
@@ -98,13 +98,13 @@
         width: 500px;
         height: 400px;
         margin-top: 120px;
-        margin-left: 120px;
-        font-weight: 300 !important;
+        margin-left: 140px;
+        s font-weight: 300 !important;
     }
     
     .pit {
         color: white;
-        font-size: 47px;
+        font-size: 45px;
     }
     
     .spbt {
@@ -136,11 +136,25 @@
     
     .sinside h4 {
         font-size: 45px;
-        font-weight: 100;
+        font-weight: 200;
     }
     
     .inbox {
-        background: url("/home/ashish/Desktop/projects/gmail/images/inboxtabs.gif");
+        background: url("../images/inboxtabs.gif");
         height: 100px;
         width: 100%;
+    }
+    
+    h1 img,
+    svg {
+        width: 170px;
+        margin-top: -30px;
+    }
+    
+    .device {
+        background: url("https://www.google.com/gmail/about/images/any-device.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
     }
